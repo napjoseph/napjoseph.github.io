@@ -9,6 +9,8 @@
     <meta name="description" content="{{ description or metadata.description }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#fafafa"/>
+
+    <link rel="stylesheet" href="main.css"/>
   </head>
 
   <body>
@@ -18,24 +20,23 @@
       </p>
     <![endif]-->
 
-    <header>{{ metadata.site.title }}</header>
+    <header>
+      <h1>
+        <a href="{{ metadata.site.url }}">{{ metadata.site.title }}</a>
+      </h1>
+    </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
 
-    <footer>Copyright 2020 {{ metadata.author.name }}.</footer>
+    <footer>
+      <p>Copyright 2020 {{ metadata.author.name }}.</p>
+    </footer>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ tracking.gtagId }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', '{{ tracking.gtagId }}');
-    </script>
+    <script src="main.js"></script>
+
+    {% include "ga.njk" %}
   </body>
 
 </html>

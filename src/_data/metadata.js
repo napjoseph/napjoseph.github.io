@@ -1,10 +1,15 @@
-const PRODUCTION = process.env.ELEVENTY_ENV == 'production';
-const siteUrl = PRODUCTION
-  ? 'https://napjose.ph/'
-  : 'https://napjoseph.glitch.me/';
+const ENVIRONMENT = process.env.ELEVENTY_ENV;
+
+let siteUrl = 'http://localhost:3000';
+switch (ENVIRONMENT) {
+  case 'staging':
+    siteUrl = 'https://napjoseph.glitch.me';
+  case 'production':
+    siteUrl = 'https://napjose.ph/';
+}
 
 module.exports = {
-  production: PRODUCTION,
+  production: ENVIRONMENT === 'production',
   site: {
     title: 'napjose.ph',
     description: 'Personal site of Nap Joseph Calub',
