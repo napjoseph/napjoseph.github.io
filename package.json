@@ -1,0 +1,29 @@
+{
+  "name": "napjoseph.github.io",
+  "description": "Personal site of Nap Joseph Calub.",
+  "version": "0.0.1",
+  "keywords": [
+    "blog"
+  ],
+  "author": {
+    "name": "Nap Joseph Calub",
+    "email": "hello@napjose.ph",
+    "url": "https://napjose.ph"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/napjoseph/napjoseph.github.io.git"
+  },
+  "homepage": "https://github.com/napjoseph/napjoseph.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/napjoseph/napjoseph.github.io/issues"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "prettier": "1.19.1"
+  }
+}
