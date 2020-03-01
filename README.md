@@ -1,6 +1,12 @@
 # napjoseph.github.io
 
+![](https://github.com/napjoseph/napjoseph.github.io/workflows/deploy-to-master/badge.svg)
+
 Personal site of **[Nap Joseph Calub](https://napjoseph.github.io)**.
+
+## Built Using
+
+- [Eleventy](https://www.11ty.dev/)
 
 ## Installation
 
