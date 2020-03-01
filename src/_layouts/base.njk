@@ -21,9 +21,13 @@
     <![endif]-->
 
     <header>
-      <h1>
-        <a href="{{ metadata.site.url }}">{{ metadata.site.title }}</a>
-      </h1>
+      <nav>
+        <h1 class="branding">
+          <a href="{{ metadata.site.url }}">
+            {{ metadata.site.title }}
+          </a>
+        </h1>
+      </nav>
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
@@ -31,7 +35,10 @@
     </main>
 
     <footer>
-      <p>Copyright 2020 {{ metadata.author.name }}.</p>
+      <p>
+        <span>Copyright 2020 {{ metadata.author.name }}.</span> |
+        <span>View source at <a href="https://github.com/napjoseph/napjoseph.github.io">GitHub</a>.</span>
+      </p>
     </footer>
 
     <script src="main.js"></script>

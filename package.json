@@ -19,7 +19,8 @@
     "watch": "npm-run-all clean --parallel watch:*",
     "build:eleventy": "ELEVENTY_ENV=production eleventy --config=eleventy.config.js",
     "build:webpack": "webpack -p --config webpack.prod.config.js",
-    "build": "npm-run-all clean --parallel build:*"
+    "build": "npm-run-all clean --parallel build:*",
+    "serve": "npm-run-all clean build watch:browser-sync"
   },
   "dependencies": {
     "@11ty/eleventy": "0.10.0",

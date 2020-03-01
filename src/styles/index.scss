@@ -1,5 +1,18 @@
 $primary-color: #0079bb;
 
-h1 {
-  color: $primary-color;
+nav {
+  .branding {
+    color: $primary-color;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:link,
+    &:active,
+    &:visited,
+    &:hover {
+      color: inherit;
+    }
+  }
 }
