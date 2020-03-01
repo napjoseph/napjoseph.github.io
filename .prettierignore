@@ -3,13 +3,6 @@
 # git
 .git
 
-# ignore files
-.gitignore
-.prettierignore
-
-# log files
-.log*
-
 # dependencies
 node_modules
 package-lock.json
