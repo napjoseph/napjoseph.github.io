@@ -11,19 +11,31 @@
     "url": "https://napjose.ph"
   },
   "scripts": {
+    "clean": "rimraf dist",
     "watch:prettier": "onchange '**/*.{js,json,html,md,ts,css,scss,yaml,yml}' --exclude-path .prettierignore -- prettier --write {{changed}}",
     "watch:eleventy": "ELEVENTY_ENV=development eleventy --watch --quiet --config=eleventy.config.js",
     "watch:browser-sync": "browser-sync start --server 'dist' --files 'dist' --no-open --no-online",
-    "start": "npm-run-all --parallel watch:*"
+    "start": "npm-run-all clean --parallel watch:*"
   },
   "dependencies": {
     "@11ty/eleventy": "0.10.0",
-    "npm-run-all": "4.1.5"
+    "npm-run-all": "4.1.5",
+    "rimraf": "3.0.2"
   },
   "devDependencies": {
     "browser-sync": "2.26.7",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.8",
     "onchange": "6.1.0",
     "prettier": "1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,html,md,ts,css,scss,yaml,yml}": "prettier --write"
   },
   "repository": {
     "type": "git",
