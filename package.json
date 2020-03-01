@@ -11,7 +11,12 @@
     "url": "https://napjose.ph"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:prettier": "onchange '**/*' --exclude-path .prettierignore -- prettier --write {{changed}}"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "onchange": "6.1.0",
+    "prettier": "1.19.1"
   },
   "repository": {
     "type": "git",
@@ -22,8 +27,5 @@
     "url": "https://github.com/napjoseph/napjoseph.github.io/issues"
   },
   "license": "MIT",
-  "private": true,
-  "devDependencies": {
-    "prettier": "1.19.1"
-  }
+  "private": true
 }

@@ -1,0 +1,28 @@
+# https://prettier.io/docs/en/ignore.html
+
+# git
+.git
+
+# ignore files
+.gitignore
+.prettierignore
+
+# log files
+.log*
+
+# dependencies
+node_modules
+package-lock.json
+
+# caches
+.cache
+
+# output
+dist
+public
+
+# glitch
+shrinkwrap.yaml
+
+# database
+.data
