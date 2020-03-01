@@ -10,6 +10,9 @@ npm install
 
 # start dev server
 npm run watch
+
+# build only
+npm run build
 ```
 
 ## License
