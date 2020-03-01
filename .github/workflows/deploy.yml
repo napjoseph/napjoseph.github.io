@@ -31,9 +31,9 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           SSH: true
-          GIT_CONFIG_NAME: Nap Joseph Calub
-          GIT_CONFIG_EMAIL: njncalub@gmail.com
-          COMMIT_MESSAGE: Deployed from stable branch.
-          BRANCH: master
-          FOLDER: dist
+          GIT_CONFIG_NAME: 'Nap Joseph Calub'
+          GIT_CONFIG_EMAIL: 'njncalub@gmail.com'
+          COMMIT_MESSAGE: 'Deployed from stable branch.'
+          BRANCH: 'master'
+          FOLDER: 'dist'
           CLEAN: true
