@@ -11,10 +11,17 @@
     "url": "https://napjose.ph"
   },
   "scripts": {
-    "watch:prettier": "onchange '**/*.{js,json,html,md,ts,css,scss,yaml,yml}' --exclude-path .prettierignore -- prettier --write {{changed}}"
+    "watch:prettier": "onchange '**/*.{js,json,html,md,ts,css,scss,yaml,yml}' --exclude-path .prettierignore -- prettier --write {{changed}}",
+    "watch:eleventy": "ELEVENTY_ENV=development eleventy --watch --quiet --config=eleventy.config.js",
+    "watch:browser-sync": "browser-sync start --server 'dist' --files 'dist' --no-open --no-online",
+    "start": "npm-run-all --parallel watch:*"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@11ty/eleventy": "0.10.0",
+    "npm-run-all": "4.1.5"
+  },
   "devDependencies": {
+    "browser-sync": "2.26.7",
     "onchange": "6.1.0",
     "prettier": "1.19.1"
   },
