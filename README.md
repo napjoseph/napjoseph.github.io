@@ -2,7 +2,7 @@
 
 Personal site of **[Nap Joseph Calub](https://napjoseph.github.io)**.
 
-# Installation
+## Installation
 
 ```bash
 # install dependencies
