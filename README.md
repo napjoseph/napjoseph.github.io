@@ -4,21 +4,21 @@
 
 Personal site of **[Nap Joseph Calub](https://napjoseph.github.io)**.
 
-## Built Using
+## Built With
 
 - [Eleventy](https://www.11ty.dev/)
 
-## Installation
+## Usage
 
 ```bash
 # install dependencies
-npm install
+$ npm install
 
 # start dev server
-npm run watch
+$ npm run watch
 
 # build only
-npm run build
+$ npm run build
 ```
 
 ## License
