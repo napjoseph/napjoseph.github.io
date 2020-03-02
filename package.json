@@ -11,15 +11,15 @@
     "url": "https://napjose.ph"
   },
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf dist src/_includes/.webpack",
+    "watch": "cross-env NODE_ENV=development ELEVENTY_ENV=development npm-run-all clean --parallel watch:*",
+    "watch:webpack": "webpack --config webpack.dev.config.js --watch",
+    "watch:eleventy": "eleventy --config=eleventy.config.js --watch --quiet",
     "watch:prettier": "onchange '**/*.{js,json,html,md,ts,css,scss,yaml,yml}' --exclude-path .prettierignore -- prettier --write {{changed}}",
-    "watch:eleventy": "ELEVENTY_ENV=development eleventy --watch --quiet --config=eleventy.config.js",
-    "watch:webpack": "webpack --mode=development --watch --config webpack.dev.config.js",
     "watch:browser-sync": "browser-sync start --server 'dist' --files 'dist' --no-open --no-online",
-    "watch": "npm-run-all clean --parallel watch:*",
-    "build:eleventy": "ELEVENTY_ENV=production eleventy --config=eleventy.config.js",
-    "build:webpack": "webpack -p --config webpack.prod.config.js",
-    "build": "npm-run-all clean --parallel build:*",
+    "build": "cross-env NODE_ENV=production ELEVENTY_ENV=production run-s clean build:webpack build:eleventy",
+    "build:webpack": "webpack --config webpack.prod.config.js",
+    "build:eleventy": "eleventy --config=eleventy.config.js",
     "serve": "npm-run-all clean build watch:browser-sync"
   },
   "dependencies": {
@@ -35,6 +35,7 @@
     "autoprefixer": "9.7.4",
     "browser-sync": "2.26.7",
     "clean-webpack-plugin": "3.0.0",
+    "cross-env": "7.0.0",
     "css-loader": "3.4.2",
     "html-minifier": "4.0.0",
     "husky": "4.2.3",
@@ -45,7 +46,14 @@
     "prettier": "1.19.1",
     "sass-loader": "8.0.2",
     "style-loader": "1.1.3",
-    "stylelint-config-recommended": "3.0.0"
+    "stylelint": "13.2.0",
+    "stylelint-config-prettier": "8.0.1",
+    "stylelint-config-standard": "20.0.0",
+    "stylelint-no-unsupported-browser-features": "4.0.0",
+    "ts-loader": "6.2.1",
+    "typescript": "3.8.3",
+    "url-loader": "3.0.0",
+    "webpack-manifest-plugin": "2.2.0"
   },
   "husky": {
     "hooks": {

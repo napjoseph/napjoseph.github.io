@@ -15,6 +15,7 @@ npm-debug.log*
 
 # output
 dist
+src/_includes/.webpack
 
 # glitch
 shrinkwrap.yaml

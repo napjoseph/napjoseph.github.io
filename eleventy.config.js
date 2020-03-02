@@ -1,17 +1,10 @@
-const htmlMinifier = require('html-minifier');
+const htmlMinifier = require('./src/_11ty/htmlMinifier');
+const getWebpackAsset = require('./src/_11ty/getWebpackAsset');
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addTransform('htmlMinifier', function(content, outputPath) {
-    if (outputPath.endsWith('.html')) {
-      return htmlMinifier.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true,
-      });
-    }
+  eleventyConfig.addTransform('htmlMinifier', htmlMinifier);
 
-    return content;
-  });
+  eleventyConfig.addShortcode('getWebpackAsset', getWebpackAsset);
 
   return {
     templateFormats: ['md', 'njk', 'html', 'liquid'],

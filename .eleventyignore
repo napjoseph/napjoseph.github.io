@@ -1,4 +1,6 @@
 # https://www.11ty.dev/docs/ignores/
 
+src/_11ty
+
 src/scripts
 src/styles

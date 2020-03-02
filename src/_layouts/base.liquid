@@ -10,8 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#fafafa"/>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i|Roboto:400,400i,700,700i&display=swap"/>
-    <link rel="stylesheet" href="main.css"/>
+    {% include styles %}
   </head>
 
   <body>
@@ -22,7 +21,7 @@
     <![endif]-->
 
     <header>
-      {% include "header.njk" %}
+      {% include header %}
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
@@ -30,12 +29,10 @@
     </main>
 
     <footer>
-      {% include "footer.njk" %}
+      {% include footer %}
     </footer>
 
-    <script src="main.js"></script>
-
-    {% include "gtag.njk" %}
+    {% include scripts %}
   </body>
 
 </html>
