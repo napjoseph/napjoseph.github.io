@@ -21,6 +21,10 @@ $ npm run watch
 $ npm run build
 ```
 
+## Deploying
+
+After pushing to [stable](https://github.com/napjoseph/napjoseph.github.io/tree/stable), the [deploy-to-master](./.github/workflows/deploy.yml) action will build the project and commit the generated files to the [master branch](https://github.com/napjoseph/napjoseph.github.io/tree/master).
+
 ## License
 
 [MIT Licensed](./LICENSE).
