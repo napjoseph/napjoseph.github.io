@@ -1,5 +1,6 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const GoogleFontsPlugin = require('google-fonts-plugin');
 
 module.exports = {
   entry: './src/scripts/index.ts',
@@ -27,6 +28,21 @@ module.exports = {
     ],
   },
   plugins: [
+    new GoogleFontsPlugin({
+      fonts: [
+        {
+          family: 'Fira Sans',
+          variants: ['400', '400i', '700', '700i'],
+          subsets: ['latin-ext'],
+        },
+        {
+          family: 'Roboto',
+          variants: ['400', '400i', '700', '700i'],
+          subsets: ['latin-ext'],
+        },
+      ],
+      formats: ['woff', 'woff2'],
+    }),
     new MiniCssExtractPlugin({
       filename: 'main.css',
     }),

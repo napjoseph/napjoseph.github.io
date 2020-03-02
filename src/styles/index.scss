@@ -1,18 +1,33 @@
-$primary-color: #0079bb;
+@use 'theme';
 
-nav {
-  .branding {
-    color: $primary-color;
-  }
+html,
+body {
+  font-family: theme.$primary-font-family;
 
   a {
     text-decoration: none;
+  }
+}
 
-    &:link,
-    &:active,
-    &:visited,
-    &:hover {
-      color: inherit;
+.logo {
+  font-family: theme.$secondary-font-family;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+
+  .nap {
+    color: theme.$logo-primary-color;
+  }
+
+  .joseph {
+    color: theme.$logo-secondary-color;
+
+    .dot {
+      color: theme.$logo-primary-color;
     }
+  }
+
+  .nap .n,
+  .joseph .j {
+    font-size: 2.1rem;
   }
 }
