@@ -9,6 +9,12 @@
         "ignorePseudoClasses": ["global"]
       }
     ],
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["use", "tailwind"]
+      }
+    ],
     "plugin/no-unsupported-browser-features": [
       true,
       {
