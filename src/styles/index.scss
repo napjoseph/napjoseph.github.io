@@ -11,7 +11,8 @@ body {
 
 .logo {
   font-family: theme.$secondary-font-family;
-  font-size: 1.9rem;
+  font-weight: 700;
+  font-size: 1.8rem;
   text-transform: uppercase;
 
   .nap {
@@ -20,10 +21,6 @@ body {
 
   .joseph {
     color: theme.$logo-secondary-color;
-
-    .dot {
-      color: theme.$logo-primary-color;
-    }
   }
 
   .nap .n,
