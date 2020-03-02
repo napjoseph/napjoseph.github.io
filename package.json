@@ -12,24 +12,23 @@
   },
   "scripts": {
     "clean": "rimraf dist src/_includes/.webpack",
-    "watch": "cross-env NODE_ENV=development ELEVENTY_ENV=development npm-run-all clean --parallel watch:*",
-    "watch:webpack": "webpack --config webpack.dev.config.js --watch",
+    "watch:webpack": "webpack --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
     "watch:eleventy": "eleventy --config=eleventy.config.js --watch --quiet",
     "watch:prettier": "onchange '**/*.{js,json,html,md,ts,css,scss,yaml,yml}' --exclude-path .prettierignore -- prettier --write {{changed}}",
     "watch:browser-sync": "browser-sync start --server 'dist' --files 'dist' --no-open --no-online",
-    "build": "cross-env NODE_ENV=production ELEVENTY_ENV=production run-s clean build:webpack build:eleventy",
-    "build:webpack": "webpack --config webpack.prod.config.js",
+    "watch": "cross-env NODE_ENV=development ELEVENTY_ENV=development npm-run-all clean --parallel watch:*",
+    "build:webpack": "webpack --config=node_modules/laravel-mix/setup/webpack.config.js",
     "build:eleventy": "eleventy --config=eleventy.config.js",
-    "serve": "npm-run-all clean build watch:browser-sync"
+    "build": "cross-env NODE_ENV=production ELEVENTY_ENV=production npm-run-all clean build:*",
+    "serve": "npm-run-all clean build watch:browser-sync",
+    "start": "run-s watch"
   },
   "dependencies": {
     "@11ty/eleventy": "0.10.0",
+    "laravel-mix": "5.0.1",
     "npm-run-all": "4.1.5",
     "rimraf": "3.0.2",
-    "sass": "1.26.2",
-    "webpack": "4.41.6",
-    "webpack-cli": "3.3.11",
-    "webpack-merge": "4.2.2"
+    "sass": "1.26.2"
   },
   "devDependencies": {
     "autoprefixer": "9.7.4",
@@ -44,16 +43,16 @@
     "onchange": "6.1.0",
     "postcss-loader": "3.0.0",
     "prettier": "1.19.1",
+    "resolve-url-loader": "^3.1.0",
     "sass-loader": "8.0.2",
     "style-loader": "1.1.3",
-    "stylelint": "13.2.0",
     "stylelint-config-prettier": "8.0.1",
     "stylelint-config-standard": "20.0.0",
     "stylelint-no-unsupported-browser-features": "4.0.0",
+    "stylelint": "13.2.0",
     "ts-loader": "6.2.1",
     "typescript": "3.8.3",
-    "url-loader": "3.0.0",
-    "webpack-manifest-plugin": "2.2.0"
+    "url-loader": "3.0.0"
   },
   "husky": {
     "hooks": {

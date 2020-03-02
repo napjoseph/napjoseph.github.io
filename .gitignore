@@ -15,7 +15,7 @@ npm-debug.log*
 
 # output
 dist
-src/_includes/.webpack
+mix-manifest.json
 
 # glitch
 shrinkwrap.yaml

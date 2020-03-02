@@ -1,10 +1,7 @@
-const htmlMinifier = require('./src/_11ty/htmlMinifier');
-const getWebpackAsset = require('./src/_11ty/getWebpackAsset');
+const htmlMinifier = require('./src/_helpers/htmlMinifier');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addTransform('htmlMinifier', htmlMinifier);
-
-  eleventyConfig.addShortcode('getWebpackAsset', getWebpackAsset);
 
   return {
     templateFormats: ['md', 'njk', 'html', 'liquid'],

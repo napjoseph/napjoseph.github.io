@@ -15,7 +15,7 @@ Personal site of **[Nap Joseph Calub](https://napjoseph.github.io)**.
 $ npm install
 
 # start dev server
-$ npm run watch
+$ npm start
 
 # build only
 $ npm run build
