@@ -5,7 +5,7 @@
       true,
       {
         "ignoreAtRules": ["use"]
-      },
+      }
     ],
     "font-family-no-missing-generic-family-keyword": null
   }
