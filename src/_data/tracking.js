@@ -1,3 +1,3 @@
 module.exports = {
-  gtagId: 'UA-159141369-1',
+  propertyId: 'UA-159141369-1',
 };
