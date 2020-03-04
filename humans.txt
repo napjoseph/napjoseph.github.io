@@ -15,7 +15,7 @@
 
 # TECHNOLOGY COLOPHON
 
-  HTML5, Liquid, Markdown
+  HTML5, Nunjucks, Markdown
   CSS3, TailWind
   JavaScript, TypeScript
   Eleventy
