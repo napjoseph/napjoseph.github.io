@@ -19,4 +19,9 @@ module.exports = {
     name: 'Nap Joseph Calub',
     email: 'hello@napjose.ph',
   },
+  feed: {
+    filename: 'feed.xml',
+    path: '/feed/feed.xml',
+    id: siteUrl,
+  },
 };

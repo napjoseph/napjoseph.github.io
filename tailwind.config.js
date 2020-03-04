@@ -17,6 +17,8 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      pinkish: '#eb5286',
+
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
@@ -130,6 +132,7 @@ module.exports = {
     },
     spacing: {
       px: '1px',
+      '3px': '3px',
       '0': '0',
       '1': '0.25rem',
       '2': '0.5rem',

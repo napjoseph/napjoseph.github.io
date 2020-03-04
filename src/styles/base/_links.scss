@@ -1,12 +1,24 @@
-a {
+main a,
+footer a {
   @apply text-purple-900 no-underline transition-all duration-300 ease-out;
 
   &:not([class]) {
-    border-bottom-width: 2px;
-    border-color: #eb5286;
+    @apply border-pinkish border-b-2;
 
     &:hover {
       @apply text-pink-500;
     }
   }
+}
+
+.nav-item {
+  @apply inline mr-3px p-3px text-pinkish;
+}
+
+.nav-item-active {
+  @apply bg-pinkish text-white;
+}
+
+.tag {
+  @apply bg-blue-500 text-white p-3px m-3px text-xs rounded-sm;
 }
