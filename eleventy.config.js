@@ -36,7 +36,7 @@ module.exports = function(eleventyConfig) {
     require('./src/_11ty/transforms/htmlMinifier')
   );
 
-  eleventyConfig.addPassthroughCopy({ 'src/_copied_directly': './' });
+  eleventyConfig.addPassthroughCopy({ 'src/_root_files': './' });
 
   return {
     templateFormats: ['md', 'njk', 'html', 'liquid'],

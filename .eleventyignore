@@ -4,7 +4,7 @@
 src/_11ty
 
 # files that will directly be copied to the dist directory during build
-src/_copied_directly
+src/_root_files
 
 # scripts and styles
 src/scripts
