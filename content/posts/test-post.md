@@ -12,11 +12,11 @@ I'm making a note here: **HUGE SUCCESS**!
 SELECT * FROM table;
 ```
 
-# Test header 1
+# Using header 1
 
 In ad irure Lorem reprehenderit id enim anim incididunt aute voluptate aliqua ullamco laboris. Est adipisicing et amet laborum in occaecat veniam dolore ut deserunt anim enim est sunt. Sunt proident aliquip eiusmod cupidatat duis proident do consequat fugiat veniam occaecat ad anim. In est proident et irure ex. Duis aliqua pariatur cupidatat non elit. Aliquip dolore nisi esse irure sit non quis proident sint fugiat ipsum cupidatat irure ut.
 
-## Test header 2
+## Using header 2
 
 Excepteur aliquip esse deserunt aliquip aliqua et dolor sit aute tempor ut magna. Enim duis incididunt elit qui occaecat aliqua. Velit cupidatat magna dolore exercitation sint mollit ad laboris nulla fugiat aute aliqua consequat. Exercitation qui excepteur laborum minim laborum nulla dolor. Magna ullamco eu do nisi. Proident amet non velit esse consectetur enim velit aute.
 
