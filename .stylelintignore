@@ -1,7 +1,0 @@
-# https://stylelint.io/user-guide/ignore-code
-
-# dependencies
-node_modules/
-
-# output
-dist/
