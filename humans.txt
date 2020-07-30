@@ -11,12 +11,10 @@
 # THANKS
 
   My IDE of choice: https://code.visualstudio.com/
-  My go-to boilerplate: https://github.com/h5bp/html5-boilerplate/
 
 # TECHNOLOGY COLOPHON
 
-  HTML5, Nunjucks, Markdown
-  CSS3, TailWind
-  JavaScript, TypeScript
-  Eleventy
+  HTML5, Markdown
+  Go, JavaScript, TypeScript
+  Hugo
   GitHub Pages
