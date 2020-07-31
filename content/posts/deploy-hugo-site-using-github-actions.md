@@ -1,6 +1,9 @@
 ---
 title: "Deploy Hugo Site Using GitHub Actions"
 date: 2020-07-31T03:02:37+08:00
+tags:
+  - hugo
+  - github actions
 ---
 
 After creating a new project using

@@ -1,6 +1,9 @@
 ---
 title: "Using Hugo on Gitpod"
 date: 2020-07-31T13:15:13Z
+tags:
+  - hugo
+  - gitpod
 ---
 
 Create the necessary Gitpod files on the root of your repository.
