@@ -2,11 +2,8 @@
 name: For Blog Post
 about: Ideas on things to write about
 title: "[FOR BLOG POST]"
-labels:
-  - idea
-  - for blog post
-assignees:
-  - njncalub
+labels: idea, for blog post
+assignees: njncalub
 ---
 
 **What is your idea about? Please describe.**

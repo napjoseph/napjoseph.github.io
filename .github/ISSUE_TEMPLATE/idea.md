@@ -2,10 +2,8 @@
 name: Idea
 about: It might be the next big thing
 title: "[IDEA]"
-labels:
-  - idea
-assignees:
-  - njncalub
+labels: idea
+assignees: njncalub
 ---
 
 **What is your idea about? Please describe.**
