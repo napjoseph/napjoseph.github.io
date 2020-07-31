@@ -17,7 +17,7 @@ YYYYMMDD_your_feature    # additional development branches for new features
 
 1. Install [Hugo](https://gohugo.io/getting-started/installing/) on your machine.
 2. File a [new issue](https://github.com/napjoseph/napjoseph.github.io/issues) for the feature you want to work on.
-3. From the `stable` branch, create a new branch, using `YYYYMMDD_your_feature` for the name.
+3. From the `stable` branch, create a new branch for your feature, (ideally) using `YYYYMMDD_your_feature` as the format.
 4. Work on your feature.
 5. Run `hugo server -D` to start the development server.
 6. Once everything is good, push your commits and create a new pull request to `stable`.
