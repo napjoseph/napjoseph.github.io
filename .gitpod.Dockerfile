@@ -1,4 +1,4 @@
-FROM woahbase/alpine-hugo
+FROM gitpod/workspace-full
 
 USER root
 
