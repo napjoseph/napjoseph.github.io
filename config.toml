@@ -17,7 +17,7 @@ enableRobotsTXT = true
 [params]
   favicon = "logo-square.png"
   site_logo = ""
-  description = "Personal site of Nap Joseph Calub."
+  description = "a byte-sized grimoire on software black magic & open-sourcery"
   facebook = ""
   twitter = ""
   instagram = ""

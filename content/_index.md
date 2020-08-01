@@ -1,5 +1,5 @@
 ---
-title: "A wise man once said:"
+title: "~fabri de magia~"
 featured_image: '/images/gohugo-default-sample-hero-image.jpg'
-description: "Kung hindi siya para sa akin, kawawa naman siya."
+description: "a byte-sized grimoire on software black magic & open-sourcery"
 ---
