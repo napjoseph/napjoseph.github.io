@@ -1,7 +1,7 @@
 baseURL = "https://napjose.ph/"
 title = "Nap Joseph Calub"
 languageCode = "en-us"
-theme = "ananke"
+theme = "napjoseph-gohugo-theme"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
