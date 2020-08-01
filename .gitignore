@@ -14,14 +14,7 @@ npm-debug.log*
 .cache
 
 # output
-dist
-mix-manifest.json
-
-# glitch
-shrinkwrap.yaml
-
-# database
-.data
+public
 
 # env
 .env
