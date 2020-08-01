@@ -70,7 +70,7 @@ jobs:
           hugo-version: '0.74.3'
 
       - name: Build
-        run: hugo --minify
+        run: HUGO_ENV=production hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
