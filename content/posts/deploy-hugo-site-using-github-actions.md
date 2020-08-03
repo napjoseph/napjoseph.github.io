@@ -21,9 +21,9 @@ we will be using following branches for our workflow:
 
 ```
 $ git branch
-master                   # the branch that GitHub pages will serve the files from
-stable                   # the main development branch where all pull requests will be merged to
-YYYYMMDD_new_features    # additional development branches for new features
+master           # the branch that GitHub pages will serve the files from
+stable           # the main development branch where all pull requests will be merged to
+id_your_feature  # additional development branches for new features
 ```
 
 ### Add your Deploy Key

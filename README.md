@@ -8,16 +8,16 @@ The source code for [napjose.ph](https://napjose.ph). Generated using [Hugo](htt
 
 ```bash
 $ git branch
-master                   # the branch that GitHub pages will serve the files from
-stable                   # the main development branch where all pull requests will be merged to
-YYYYMMDD_your_feature    # additional development branches for new features
+master           # the branch that GitHub pages will serve the files from
+stable           # the main development branch where all pull requests will be merged to
+id_your_feature  # additional development branches for new features
 ```
 
 ## Local Development
 
 1. Install [Hugo](https://gohugo.io/getting-started/installing/) on your machine.
 2. File a [new issue](https://github.com/napjoseph/napjoseph.github.io/issues) for the feature you want to work on.
-3. From the `stable` branch, create a new branch for your feature, (ideally) using `YYYYMMDD_your_feature` as the format.
+3. From the `stable` branch, create a new branch for your feature, (ideally) using `id_your_feature` as the format.
 4. Work on your feature.
 5. Run `hugo server -D` to start the development server.
 6. Once everything is good, push your commits and create a new pull request to `stable`.
