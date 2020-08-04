@@ -1,0 +1,155 @@
+[[sections]]
+key = "work-experience"
+title = "Work Experience"
+description = "I am a software engineer who enjoys building business applications using Go, Python, and TypeScript. Previously, I have also worked as a mobile app developer, database administrator, Google Ads and Google Analytics analyst, and software development trainer."
+
+[[sections]]
+key = "educational-background"
+title = "Educational Background"
+
+[[sections]]
+key = "references"
+title = "References"
+
+[[work-experience]]
+title = "Concentrix"
+url = "https://www.concentrix.com/"
+address = "Tera Tower, Bridgetowne, C5, Eulogio Rodriguez Jr. Ave, Quezon City, Metro Manila"
+  [[work-experience.roles]]
+  title = "Business Apps Developer"
+  description = "I create and maintain business-critical applications using a mixture of Python, Go, and TypeScript (Angular) for our client's Network Operations Center. I also analyze large data sets from Cloud SQL and BigQuery, and create interactive dashboards using Data Studio."
+  from_date = "May 2018"
+  to_date = "present"
+
+[[work-experience]]
+title = "Cognizant Technology Solutions Phils., Inc"
+url = "https://www.cognizant.com/"
+address = "8/10 Upper McKinley Bldg, Fort Bonifacio, Taguig City, Philippines"
+  [[work-experience.roles]]
+  title = "Senior Process Executive"
+  description = "I helped big companies across APAC to improve their current Google Ads (previously Google AdWords) and Google Analytics setup, and helped them implement Dynamic Remarketing on their websites using Google Tag Manager."
+  from_date = "August 2017"
+  to_date = "April 2018"
+
+[[work-experience]]
+title = "Bell Telecommunication Philippines, Inc"
+url = "http://www.belltel.ph/"
+address = "3F 808 Bldg, Meralco Ave cor. Gen. Lim St., Brgy. San Antonio, Pasig City, 1603, Metro Manila, Philippines"
+  [[work-experience.roles]]
+  title = "Database Administrator"
+  description = "I created and managed the system for splitting, handing over, and disposal of our telecommunications network assets to PLDT and Globe Telecom. Additionally, I have also worked with external project managers by generating the daily reports and presentations to check the overall status of the operation."
+  from_date = "January 2017"
+  to_date = "August 2017"
+
+[[work-experience]]
+title = "Ingenuity Global Consulting"
+url = "https://ingenuity.ph/"
+address = "3F, 1.18 Centron Building, Elpidio Quirino Ave, Davao City, 8000, Davao del Sur, Philippines"
+  [[work-experience.roles]]
+  title = "Software Developer"
+  description = "I created web applications using Python (Django and Flask) and front-end frameworks like AngularJS, Chaplin.js, and Bootstrap. I also created and deployed cross-platform mobile applications using Appcelerator Titanium, which served thousands of daily users. As a way to give back to the community, I also facilitated the training of high school students to create web applications using Python/Django, to improve their school's current information systems."
+  from_date = "September 2013"
+  to_date = "January 2016"
+
+[[work-experience]]
+title = "Ateneo de Davao University"
+url = "http://www.addu.edu.ph/"
+address = "E. Jacinto Street, 8016 Davao City, Philippines"
+  [[work-experience.roles]]
+  title = "Instructor"
+  subtitle = "Information Systems Department"
+  description = "I was a part-time instructor in the Information Systems department of the Computer Studies cluster, teaching Fundamentals of Computer Software & Applications. In my free time, I trained students in web and mobile app development and gave talks about the latest technology trends."
+  from_date = "June 2014"
+  to_date = "November 2014"
+
+[[educational-background]]
+title = "Ateneo de Davao University"
+url = "http://www.addu.edu.ph/"
+address = "E. Jacinto Street, 8016 Davao City, Philippines"
+  [[educational-background.degrees]]
+  title = "Bachelor of Science in Information Technology"
+  from_date = "June 2010"
+  to_date = "March 2014"
+
+[[references]]
+title = "Daryl Ronquillo"
+subtitle = "Software Engineer"
+company = "Willis Towers Watson"
+email_address = "daryl.ronquillo@willistowerswatson.com"
+contact_number = "+63 926 658 4446"
+tags = [
+  "software-development",
+]
+
+[[references]]
+title = "Michelle Ybañez"
+subtitle = "Ad Operations Officer"
+company = "ABS-CBN Corporation"
+email_address = "ymichelle1992@hotmail.com"
+contact_number = "+63 939 921 5278"
+tags = [
+  "software-development",
+  "advertisement",
+]
+
+[[references]]
+title = "Gianina Juanga"
+subtitle = "Senior Python Engineer"
+company = "Yondu, Inc"
+email_address = "gianina.juanga@gmail.com"
+contact_number = "+63 917 510 0057"
+tags = [
+  "software-development",
+]
+
+[[references]]
+title = "Ray Marc Marcellones"
+subtitle = "Software Engineer"
+company = "XTREME-D Inc"
+email_address = "raymarc.marcellones@gmail.com"
+contact_number = "+81 704 010 8869"
+tags = [
+  "software-development",
+]
+
+[[references]]
+title = "Tomjan Salavia"
+subtitle = "Nihongo-skilled Project Coordinator/Bridge SE"
+company = "WeServ Systems International Inc."
+email_address = "tjasalavia@gmail.com"
+contact_number = "+63 967 288 2935"
+tags = [
+  "software-development",
+]
+
+[[references]]
+title = "Jefford Ray Mamacus"
+subtitle = "Head of Research and Training"
+company = "Ingenuity Global Consulting"
+email_address = "jefford@ingenuity.ph"
+contact_number = "+63 927 794 0377"
+tags = [
+  "software-development",
+  "education",
+]
+
+[[references]]
+title = "Nerissa Narvaez-Siman"
+subtitle = "Senior Manager, Business Transformation Office"
+company = "Smart Communications, Inc."
+email_address = "nnsiman@smart.com.ph"
+contact_number = "+63 939 918 9201"
+tags = [
+  "software-development",
+]
+
+[[references]]
+title = "Michelle P. Banawan, Ph.D."
+subtitle = "Academic Vice President"
+company = "Ateneo de Davao University"
+email_address = "mpbanawan@addu.edu.ph"
+contact_number = "+63 908 524 4402"
+tags = [
+  "software-development",
+  "education",
+]
