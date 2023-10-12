@@ -2,17 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://napjose.ph/</loc>
-    <lastmod>2023-04-14T09:59:45.089Z</lastmod>
+    <lastmod>2023-10-12T03:12:16.070Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://napjose.ph/calub/</loc>
-    <lastmod>2023-04-14T09:59:45.089Z</lastmod>
+    <lastmod>2023-10-12T03:12:16.070Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
+  <url>
+    <loc>https://napjose.ph/posts/0xffffffffffffffffn-uint64-hack-to-decrement-by-one-using-addition</loc>
+    <lastmod>2023-10-12T10:15:02Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://napjose.ph/posts/manually-create-coverage-badges-using-github-actions</loc>
     <lastmod>2023-04-09T23:31:00Z</lastmod>
